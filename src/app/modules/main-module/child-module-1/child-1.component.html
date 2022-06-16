@@ -1,0 +1,12 @@
+<h2>Child Component 1</h2>
+<div>
+    <span (click)="outer1()">Link to outer1</span> && <span (click)="outer2named()">Link to outer2named</span> 
+</div>
+<div class="container">
+    <div class="child-outer">
+        <router-outlet name="outer-1"></router-outlet>
+    </div>
+    <div class="child-outer">
+        <router-outlet name="outer-2"></router-outlet>
+    </div>
+</div>
